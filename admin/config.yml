@@ -4,3 +4,17 @@ backend:
 
 media_folder: "images/uploads"
 
+collections:
+  - label: "WEbsite settings"
+    name: "website-settings"
+    files:
+      - label: "Website SETTings"
+        name: "site"
+        file: "_data/site.yml"
+        fields:
+          - label: "Tel"
+            name: "tel"
+            widget: "string"
+          - label: "Tel display"
+            name: "tel_display"
+            widget: "string"
