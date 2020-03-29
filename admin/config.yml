@@ -18,3 +18,10 @@ collections:
           - label: "Tel display"
             name: "tel_display"
             widget: "string"
+					- label: "seo"
+						name: "seo"
+						widget: "object"
+						fields:
+							- label: "TAGLine"
+								name: "tagline"
+								widget: "string"
