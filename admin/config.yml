@@ -5,10 +5,10 @@ backend:
 media_folder: "images/uploads"
 
 collections:
-  - label: "WEbsite settings"
+  - label: "Website settings"
     name: "website-settings"
     files:
-      - label: "Website SETTings"
+      - label: "Website settings"
         name: "site"
         file: "_data/site.yml"
         fields:
@@ -18,10 +18,10 @@ collections:
           - label: "Tel display"
             name: "tel_display"
             widget: "string"
-					- label: "seo"
-						name: "seo"
-						widget: "object"
-						fields:
-							- label: "TAGLine"
-								name: "tagline"
-								widget: "string"
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - label: "Tagline"
+                name: "tagline"
+                widget: "string"
