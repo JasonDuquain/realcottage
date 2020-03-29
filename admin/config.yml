@@ -5,10 +5,10 @@ backend:
 media_folder: "images/uploads"
 
 collections:
-  - label: "WEBSITE settings"
+  - label: "Website settings"
     name: "website-settings"
     files:
-      - label: "Website SETTINGS"
+      - label: "Website settings"
         name: "site"
         file: "_data/site.yml"
         fields:
@@ -25,10 +25,19 @@ collections:
               - label: "Tagline"
                 name: "tagline"
                 widget: "string"
-					- label: "location"
-						name: "location"
-						widget: "object"
-						fields:
-							- label: "Street address"
-								name: "street_address"
-								widget: "string"
+          - label: "Location"
+            name: "location"
+            widget: "object"
+            fields:
+              - label: "Street address"
+                name: "street_address"
+                widget: "string"
+              - label: "Locality"
+                name: "locality"
+                widget: "string"
+              - label: "Region"
+                name: "region"
+                widget: "string"
+              - label: "Country"
+                name: "country"
+                widget: "string"
