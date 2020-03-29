@@ -25,10 +25,10 @@ collections:
               - label: "Tagline"
                 name: "tagline"
                 widget: "string"
-					- label: 'location'
-						name: 'location'
-						widget: 'object'
+					- label: "location"
+						name: "location"
+						widget: "object"
 						fields:
-							- label: 'Street address'
-								name: 'street_address'
-								widget: 'string'
+							- label: "Street address"
+								name: "street_address"
+								widget: "string"
