@@ -1,3 +1,9 @@
+backend:
+  name: git-gateway
+  repo: master
+
+media_folder: "images/uploads"
+
 collections:
   - label: "Website settings"
     name: "website-settings"
