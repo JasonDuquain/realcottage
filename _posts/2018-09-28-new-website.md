@@ -3,7 +3,7 @@ layout: blog-post
 title: This title was renamed in the CMS
 desc: Check out our new online digs—fully revamped to serve you better.
 ---
-YEA boi
+YEA babee
 
 ## Lorem ipsum
 
