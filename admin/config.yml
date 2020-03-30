@@ -15,7 +15,7 @@ collections:
           - label: "Tel"
             name: "tel"
             widget: "string"
-            required: false,
+            required: false
             hint: 'hey you wait'
           - label: "Tel display"
             name: "tel_display"
