@@ -104,4 +104,24 @@ collections:
           - label: "Body"
             name: "body"
             widget: "markdown"
+
+  - label: "Blog posts"
+    name: "blog-posts"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        default: "blog-post"
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Description"
+        name: "desc"
+        widget: "string"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
             
