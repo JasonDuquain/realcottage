@@ -15,9 +15,12 @@ collections:
           - label: "Tel"
             name: "tel"
             widget: "string"
+            required: false,
+            hint: 'hey you wait'
           - label: "Tel display"
             name: "tel_display"
             widget: "string"
+            hint: 'another hint'
           - label: "SEO"
             name: "seo"
             widget: "object"
