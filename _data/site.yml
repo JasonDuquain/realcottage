@@ -1,11 +1,9 @@
-tel: +615131313131
-tel_display: 613 555 1234
-
+tel: 615131313131
+tel_display: 867 5309
 seo:
-  tagline: "Live the dream"
-  
+  tagline: Live the dream
 location:
-  street_address: "123 main street"
+  street_address: 123 main street
   locality: leam spa
-  region: 'warwick'
+  region: warwick
   country: England
